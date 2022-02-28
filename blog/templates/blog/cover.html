@@ -1,0 +1,24 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
+
+</head>
+    
+<body>
+    <div class="cover-title">
+        <h1 style="text-align:center"> Elipse Journal </h1>
+    </div>
+    <div class="cover-img">
+        <img src="/media/cover-photo.JPG" alt="purple flowers" height="350" width="650">
+    </div> 
+
+</body>
+</html>
+{% endblock content %}

@@ -1,0 +1,6 @@
+#cover-img
+{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(../media/cover-photo.JPG) 30% round;
+}
