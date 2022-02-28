@@ -49,12 +49,6 @@ class TopicPostListView(ListView):
 
     def get_queryset(self):
         topic = self.kwargs.get('topic').capitalize()
-
-
-        print('TEST')
-        print(topic)
-
-
         return Post.objects.filter(topic=topic).order_by('date_posted')
         
 
